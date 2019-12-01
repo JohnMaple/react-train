@@ -1,0 +1,90 @@
+@import "~@/styles/variable";
+
+@height: 20px;
+
+.players-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.player__input {
+  flex: 2;
+  font-size: 16px;
+  text-indent: 2px;
+}
+
+.player--selected {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #dfdfdf;
+}
+
+.player__avatar {
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  margin: 0 8px;
+}
+
+.player__info {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+.player__name {
+  font-size: 32px;
+  color: @primary-color;
+}
+
+.player__close--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player__close {
+  background-color: red;
+  color: #dfdfdf;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+.submit-btn {
+  flex: 1;
+  font-size: 16px;
+  margin-left: 16px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.icon {
+  background-color: #eee;
+  font-size: 120px !important;
+  padding: 32px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin: 8px 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.battle__button {
+  margin: 16px 0;
+}

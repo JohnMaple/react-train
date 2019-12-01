@@ -1,0 +1,79 @@
+@import "./variable";
+
+a {
+  text-decoration: none;
+  color: @text-color;
+}
+
+a:hover {
+  color: @primary-color;
+}
+
+a.active {
+  color: @primary-color;
+}
+
+button {
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: @primary-color;
+  cursor: pointer;
+}
+
+button[disabled] {
+  color: @disabled-color;
+}
+
+button:hover[disabled] {
+  color: @disabled-color;
+  cursor: default;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: @primary-color;
+}
+
+.text-danger {
+  color: @error-color;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.xs-1 {
+  flex: 1;
+}
+
+.xs-2 {
+  flex: 2;
+}
+
+.xs-3 {
+  flex: 3;
+}
+
+.xs-4 {
+  flex: 4;
+}
+
+.xs-5 {
+  flex: 5;
+}
+
+.xs-6 {
+  flex: 6;
+}
